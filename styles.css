@@ -24,12 +24,27 @@ header .header_logo{
 }
 
 .nav {
-    list-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 400px;
+    border: 0px solid black;
+    width: 1550px;
+    list-style: none;
+    justify-content: flex-start;
+    gap: 50px;
 }
+
+
+.nav-item {
+    display: flex;
+    flex-grow: 100;
+    border: 0px solid yellow;
+}
+
+.nav-item :first-child{
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 
 button {
     padding: 10px;
