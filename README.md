@@ -44,7 +44,7 @@ To get started with the development of the headphones website, follow these step
 The project structure is organized as follows:
 
 ```
-headphones-website/
+headphones/
   ├── index.html
   ├── styles.css
   ├── images/
