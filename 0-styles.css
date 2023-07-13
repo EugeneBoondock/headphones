@@ -1,0 +1,195 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(./images/headphones_hero_1.jpg);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+header .header_logo{
+    display: flex;
+    margin-left: 200px;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    flex-direction: row;
+
+}
+
+.text {
+    display: flex;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 550px;
+}
+
+.text h2{
+    height: 5px;
+    left: 29px;
+    font-size: 35px;
+}
+
+.nav {
+    display: flex;
+    border: 0px solid black;
+    margin-top: 11px;
+    margin-left: 7px;
+    width: 1550px;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: end;
+    gap: 50px;
+}
+
+.nav .nav-items:nth-child(2) a:hover,
+.nav .nav-items:nth-child(3) a:hover,
+.nav .nav-items:nth-child(4) a:hover {
+    color: #FF6565;
+}
+
+.nav :first-child {
+    display: flex;
+    flex-grow: 100;
+    align-items: baseline;
+    border: 0px solid yellow;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.text .para1 {
+    height: 40px;
+}
+
+.text .para2 {
+    margin-top: 30px;
+    size: 16px;
+    font-weight: 400;
+}
+
+button {
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #FF6565;
+    color: white;
+    height: 44px;
+    box-shadow:none;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    height: calc(100vh - 100px);
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+    margin: 0;
+}
+
+.section1{
+    margin-top: 150px;
+    height: 700px;
+}
+
+section .text2 {
+    display: flex;
+    color: black;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.section2 {
+    background-image: url(./images/headphones_hero_2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 1400;
+    height: 650;
+}
+
+.section3 {
+    height: 100vh;
+
+}
+
+.font1 {
+    font-size: 150px;
+    width: 94.2px;
+    height: 65.36;
+}
+
+.font2 {
+    font-size: 150px;
+    width: 94.2px;
+    height: 65.36;
+}
+
+.font3{
+    font-size: 150px;
+    width: 94.2px;
+    height: 65.36;
+}
+
+.font4 {
+    font-size: 150px;
+    width: 94.2px;
+    height: 65.36;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.words {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-left: 80px;
+    justify-content: center;
+}
+
+.words1 h3,
+.words1 p {
+    text-align: center;
+}
+
+.words2 h3,
+.words2 p {
+    text-align: center;
+}
+
+.words3 h3,
+.words3 p {
+    text-align: center;
+}
+
+.words4 h3,
+.words4 p {
+    text-align: center;
+}
+
+footer {
+
+}
