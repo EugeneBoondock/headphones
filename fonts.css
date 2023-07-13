@@ -2,10 +2,21 @@
     font-family: "Spincycle";
     src: url("./fonts/spincycle_ot.otf") format("truetype");
   }
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("./fonts/SourceSansPro-Bold.otf") format("truetype");
+}
   
   /* Additional font styles if needed */
   
-  .nav :first-child {
+  .nav .nav-items:first-child a {
     font-family: "Spincycle", sans-serif;
+  }
+
+  .nav .nav-items:nth-child(2) a,
+  .nav .nav-items:nth-child(3) a,
+  .nav .nav-items:nth-child(4) a{
+    font-family: "Source sans Pro", sans-serif;
   }
   
