@@ -1,7 +1,8 @@
-body {
+header {
     background-image: url(./images/headphones_hero_1.jpg);
     background-size: cover;
     position: relative;
+    height: 90vh;
 }
 
 header .header_logo{
@@ -21,6 +22,12 @@ header .header_logo{
     flex-direction: column;
     align-items: center;
     margin-top: 500px;
+}
+
+.text h2{
+    height: 5px;
+    left: 29px;
+    font-size: 35px;
 }
 
 .nav {
@@ -45,10 +52,28 @@ header .header_logo{
     font-family: sans-serif;
 }
 
+.text .para1 {
+    height: 40px;
+}
+
+.text .para2 {
+    margin-top: 30px;
+    size: 16px;
+    font-weight: 400;
+}
+
 button {
     padding: 10px;
     border-radius: 100px;
-    background-color: orangered;
+    background-color: #FF6565;
     color: white;
+    height: 44px;
+    box-shadow:none;
 }
 
+main {
+    background-color: white;
+    padding: 20px;
+    overflow-y: scroll;
+    height: calc(100vh - 100px);
+}

@@ -5,7 +5,22 @@
 
 @font-face {
     font-family: "Source Sans Pro";
-    src: url("./fonts/SourceSansPro-Bold.otf") format("truetype");
+    src: url("./fonts/SourceSansPro-Semibold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Source Sans Pro2";
+    src: url("./fonts/SourceSansPro-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Source Sans Pro3";
+    src: url("./fonts/SourceSansPro-Semibold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Source Sans Pro4";
+    src: url("./fonts/SourceSansPro-Light.otf") format("truetype");
 }
   
   /* Additional font styles if needed */
@@ -17,6 +32,21 @@
   .nav .nav-items:nth-child(2) a,
   .nav .nav-items:nth-child(3) a,
   .nav .nav-items:nth-child(4) a{
-    font-family: "Source sans Pro", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
   }
   
+  .text h2 {
+    font-family: "Source Sans Pro2", sans-serif;
+  }
+
+  .text .para1 {
+    font-family: "Source Sans Pro2", sans-serif;
+  }
+
+  button{
+    font-family: "Source Sans Pro3", sans-serif;
+  }
+
+  .text .para2 {
+    font-family: "Source Sans Pro4", sans-serif;
+  }
