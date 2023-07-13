@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Spincycle";
+    src: url("./fonts/spincycle_ot.otf") format("truetype");
+  }
+  
+  /* Additional font styles if needed */
+  
+  .nav :first-child {
+    font-family: "Spincycle", sans-serif;
+  }
+  
