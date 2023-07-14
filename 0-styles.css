@@ -59,6 +59,10 @@
     font-family: "Source Sans Pro3", sans-serif;
   }
 
+  .for button {
+    font-family: "Source Sans Pro3", sans-serif;
+  }
+
   .text .para2 {
     font-family: "Source Sans Pro4", sans-serif;
   }
@@ -126,6 +130,20 @@
     color: #FF6565;
   }
 
+  .holberton_school-icon-ic_twitter:before {
+    content: "\e90f";
+    color: white;
+  }
+
+  .holberton_school-icon-ic_instagram:before {
+    content: "\e90a";
+    color: white;
+  }
+
+  .holberton_school-icon-ic_facebook:before {
+    content: "\e908";
+    color: white;
+  }
 
 body, html {
     margin: 0;
@@ -217,8 +235,7 @@ header .header_logo{
 
 main {
     background-color: white;
-    padding: 20px;
-    height: calc(100vh - 100px);
+    height: 0vh;
     margin: 0;
 }
 
@@ -359,28 +376,106 @@ section h2 {
     gap: 150px;
     justify-content: center;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 250px;
     position: absolute;
     margin-left: 540px;
 }
 
-.per1 p:first-child {
-    margin-right:60px;
+.percent .per1 p:first-child {
+    margin-right:0px;
 }
 
 .per4 {
     margin-left: 10px;
 }
 
+.section3 {
+    height: 50vh;
+    margin-top: 400px;
+    position: relative; /* Add position: relative */
+  }
+  
+  .cont {
+    margin-left: 990px;
+    margin-top: -100px;
+    position: absolute; /* Add position: absolute */
+  }
+  
+  .section3 .for form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 850px;
+    margin-top: -100px;
+  }
+
+  .section3 .for form input[type="text"],
+.section3 .for form input[type="email"],
+.section3 .for form textarea {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.section3 .for form input[type="submit"] {
+  background-color: #FF6565;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+  .for button {
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #FF6565;
+    color: white;
+    height: 44px;
+    box-shadow:none;
+}
+  
+
 footer {
-
+    background-color: #071629;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 2500px;
+    height: 40vh;
 }
 
-
-
-@media screen and (max-width: 1023px) and (min-width: 768px) {
-    /* Add CSS rules for tablets */
+footer .logohead {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 800px;
+    margin-left: 20px;
 }
+
+.icons2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-top: -45px;
+    image-resolution: 100px;
+    margin-right: -3000px;
+}
+
+.icons2 .fot1 span,
+.icons2 .fot2 span,
+.icons2 .fot3 span {
+  font-size: 40px;
+}
+
+footer .end {
+    color: white;
+    margin-left: 650px;
+}
+
 
 @media screen and (max-width: 480px) {
 
