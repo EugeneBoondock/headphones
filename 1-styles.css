@@ -1,3 +1,112 @@
+@font-face {
+    font-family: 'holberton_school-icon';
+    src:  url('./icons/holberton_school-icon.eot?sq4eq4');
+    src:  url('./icons/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+      url('./icons/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+      url('./icons/holberton_school-icon.woff?sq4eq4') format('woff'),
+      url('./icons/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+  @font-face {
+    font-family: "Spincycle";
+    src: url("./fonts/spincycle_ot.otf") format("truetype");
+  }
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("./fonts/SourceSansPro-Semibold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Source Sans Pro2";
+    src: url("./fonts/SourceSansPro-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Source Sans Pro3";
+    src: url("./fonts/SourceSansPro-Semibold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Source Sans Pro4";
+    src: url("./fonts/SourceSansPro-Light.otf") format("truetype");
+}
+  
+  /* Additional font styles if needed */
+  
+  .nav .nav-items:first-child a {
+    font-family: "Spincycle", sans-serif;
+  }
+
+  .nav .nav-items:nth-child(2) a,
+  .nav .nav-items:nth-child(3) a,
+  .nav .nav-items:nth-child(4) a{
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  .text h2 {
+    font-family: "Source Sans Pro2", sans-serif;
+  }
+
+  .text .para1 {
+    font-family: "Source Sans Pro2", sans-serif;
+  }
+
+  button{
+    font-family: "Source Sans Pro3", sans-serif;
+  }
+
+  .text .para2 {
+    font-family: "Source Sans Pro4", sans-serif;
+  }
+
+  section .text2 {
+    font-family: "Source Sans Pro4", sans-serif;
+  }
+
+  section h2 {
+    font-family: "Source Sans Pro2", sans-serif;
+  }
+  
+  [class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'holberton_school-icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .holberton_school-icon-ic_sound:before {
+    content: "\e90e";
+    color: #FF6565;
+  }
+
+  .holberton_school-icon-ic_video:before {
+    content: "\e910";
+    color: #FF6565;
+  }
+
+  .holberton_school-icon-ic_music:before {
+    content: "\e90d";
+    color: #FF6565;
+  }
+
+  .holberton_school-icon-ic_hearing:before {
+    content: "\e909";
+    color: #FF6565;
+  }
+
+
 body, html {
     margin: 0;
     padding: 0;

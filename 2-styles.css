@@ -299,6 +299,59 @@ section h2 {
     text-align: center;
 }
 
+.shapes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    position: absolute;
+    margin-left: 500px;
+}
+
+.pent1,
+.pent2,
+.pent3,
+.pent4 {
+    display: flex;
+    margin-top: 250px;
+}
+
+.content {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content h2 {
+    margin-top: 250px;
+}
+
+.content p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.percent {
+    color: white;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    position: absolute;
+    margin-left: 540px;
+}
+
+.per1 p:first-child {
+    margin-right:60px;
+}
+
+.per4 {
+    margin-left: 10px;
+}
+
 footer {
 
 }
