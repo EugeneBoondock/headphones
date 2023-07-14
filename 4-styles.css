@@ -75,8 +75,6 @@
     font-family: "Source Sans Pro2", sans-serif;
   }
 
-
-
   .percent  .per1 h3:first-child {
     font-size: 40px;
     font-family: "Source Sans Pro";
@@ -147,6 +145,10 @@
     color: white;
   }
 
+  .holberton_school-icon-menu:before {
+    content: "\e911";
+  }
+
 body, html {
     margin: 0;
     padding: 0;
@@ -213,13 +215,12 @@ header .header_logo{
 }
 
 .text .para1 {
-    font-size: 25px;
     height: 40px;
 }
 
 .text .para2 {
     margin-top: 30px;
-    font-size: 18px;
+    size: 16px;
     font-weight: 400;
 }
 
@@ -345,7 +346,7 @@ section h2 {
     justify-content: center;
     gap: 90px;
     position: absolute;
-    margin-left: 760px;
+    margin-left: 500px;
 }
 
 .pent1,
@@ -381,7 +382,7 @@ section h2 {
     text-align: center;
     margin-top: 250px;
     position: absolute;
-    margin-left: 800px;
+    margin-left: 540px;
 }
 
 .percent .per1 p:first-child {
@@ -466,6 +467,7 @@ footer .logohead {
     margin-top: -45px;
     image-resolution: 100px;
     margin-right: -3000px;
+
 }
 
 .icons2 .fot1 span,
@@ -479,6 +481,10 @@ footer .end {
     margin-left: 650px;
 }
 
+body {
+    overflow-x: hidden;
+  }
+  
 
 @media screen and (max-width: 480px) {
 
@@ -495,7 +501,7 @@ footer .end {
     
     .text h2:first-child {
         margin: 0;
-        font-size: larger;
+        font-size: large;
         margin-top: -150px;
         display: flex;
         align-items: flex-start;
@@ -512,6 +518,7 @@ footer .end {
 
     .icons {
         display: flex;
+        margin-left: 150px;
         flex-flow: column wrap;
     }
 
@@ -538,7 +545,6 @@ footer .end {
 
     .icons {
         position: center;
-        margin-left: 150px;
         column-gap: -100px;
     }
 
@@ -623,4 +629,35 @@ footer .end {
         margin-left: 5px;
     }
 
+    /*Footer Section*/
+    .section3 {
+        margin-left: -800px;
+    }    
+
+    footer {
+        margin-top: 4050px;
+    }
+
+    footer .logohead {
+        margin-top: 550px;
+        margin-left: 60px;
+    }
+
+    .icons2 {
+        margin-right: -100px;
+        margin-top: 100px;
+    }
+
+    footer .end {
+        margin-left: -200px;
+        margin-top: 4000px;
+    }
+
+    .nav-items:not(.dropdown) {
+        display: none;
+      }
+
 }
+
+  
+
