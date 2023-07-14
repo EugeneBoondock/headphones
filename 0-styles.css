@@ -70,7 +70,27 @@
   section h2 {
     font-family: "Source Sans Pro2", sans-serif;
   }
-  
+
+  .percent  .per1 h3:first-child {
+    font-size: 40px;
+    font-family: "Source Sans Pro";
+  }
+
+  .percent  .per2 h3:first-child {
+    font-size: 40px;
+    font-family: "Source Sans Pro";
+  }
+
+  .percent  .per3 h3:first-child {
+    font-size: 40px;
+    font-family: "Source Sans Pro";
+  }
+
+  .percent  .per4 h3:first-child {
+    font-size: 40px;
+    font-family: "Source Sans Pro";
+  }
+
   [class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'holberton_school-icon' !important;
@@ -182,7 +202,7 @@ header .header_logo{
     font-weight: 400;
 }
 
-button {
+.text > div > button {
     padding: 10px;
     border-radius: 100px;
     background-color: #FF6565;
@@ -191,7 +211,7 @@ button {
     box-shadow:none;
 }
 
-button:hover{
+.text > div > button:hover{
     opacity: 0.9;
 }
 
@@ -299,6 +319,214 @@ section h2 {
     text-align: center;
 }
 
+.shapes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    position: absolute;
+    margin-left: 500px;
+}
+
+.pent1,
+.pent2,
+.pent3,
+.pent4 {
+    display: flex;
+    margin-top: 250px;
+}
+
+.content {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content h2 {
+    margin-top: 250px;
+}
+
+.content p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.percent {
+    color: white;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    position: absolute;
+    margin-left: 540px;
+}
+
+.per1 p:first-child {
+    margin-right:60px;
+}
+
+.per4 {
+    margin-left: 10px;
+}
+
 footer {
 
 }
+
+
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    /* Add CSS rules for tablets */
+}
+
+@media screen and (max-width: 480px) {
+
+    /*Header Section*/
+    header {
+        background-position: -300px center;
+    }
+
+    header .header_logo {
+        position: start;
+        margin-left: 3px;
+        padding: 20px;
+    }
+    
+    .text h2:first-child {
+        margin: 0;
+        font-size: large;
+        margin-top: -150px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .text .para2 {
+        font-size: small;
+        padding: 20px;
+        margin-top: -50px;
+        margin-left: 10px;
+        margin-right: 20px;
+        border: 60px solid transparent;
+    }
+
+    .icons {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .words {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    /*Main Section*/
+    /*Section1*/
+
+    .section1 {
+        height: fit-content;
+    }
+
+    section h2 {
+        margin-top: -120px;
+    }
+
+    section .text2 {
+        border: 60px solid transparent;
+        margin-top: -60px;
+    }
+
+    .icons {
+        position: center;
+        margin-left: 150px;
+        column-gap: -100px;
+    }
+
+    .words {
+        margin-left: -5px;
+        margin-top: -1000px;
+    }
+
+    .words1 {
+        margin-top: -100px;
+    }
+
+    .words2 {
+        margin-top: 150px;
+    }
+
+    .words3 {
+        margin-top: 150px;
+    }
+
+    .words4 {
+        margin-top: 150px;
+        margin-bottom: 20px;
+    }
+
+    /*Section2 Section*/
+
+    .section2 {
+        height: 1491px;
+        margin-top: 100px;
+    }
+    
+    .content h2:first-child {
+        margin-top: 90px;
+    }
+
+    .content p {
+        border: 50px solid transparent;
+    }
+
+    .shapes {
+        display: flex;
+        margin-left: 120px;
+        flex-flow: column wrap;
+        margin-top: -250px;
+    }
+
+    .pent2 {
+        margin-top: -10px;
+    }
+
+    .pent3 {
+        margin-top: -10px;
+    }
+
+    .pent4 {
+        margin-top: -10px;
+    }
+
+    .percent {
+        display: flex;
+        margin-top: -600px;
+        flex-flow: column wrap;
+        margin-left: 150px;
+        margin-top: 400px;
+    }
+
+    .per1 {
+        margin-top: -400px;
+    }
+
+    .per2 {
+        margin-top: -50px;
+    }
+
+    .per3 {
+        margin-top: -50px;
+    }
+
+    .per4 {
+        margin-top: -50px;
+        margin-left: 5px;
+    }
+
+
+
+
+}
+
